@@ -18,6 +18,13 @@ nav#menu{
     width: 80%;
     
 }
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 15vh;
+    /*background: url(butterfly.png.png) no-repeat -20px 10px;
+    background-size: 60px;*/
+}
+
 header#cabecalho h1{
     font-size: 30pt;
     font-family: 'Berkshire Swash', cursive;
@@ -42,12 +49,7 @@ header#cabecalho img#icon{
     top: 17px;
     width: 60px;
 }
-header#cabecalho{
-    border-bottom: 1px #606060 solid;
-    height: 120px;
-    /*background: url(butterfly.png.png) no-repeat -20px 10px;
-    background-size: 60px;*/
-}
+
 nav#menu h1{
     display: none;
 } 
