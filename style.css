@@ -203,6 +203,7 @@ aside#lateral{
 
     font-family: 'Raleway', sans-serif;
 
+<<<<<<< Updated upstream
     background-color:  rgb(195, 228, 224);
     /*display: block;
     float: right;
@@ -212,6 +213,9 @@ aside#lateral{
     width: 300px;
 
     text-align: justify;
+=======
+    background-color:   rgba(154, 238, 230, 0.432);
+>>>>>>> Stashed changes
     
 }
 aside#lateral #papp{
@@ -262,6 +266,7 @@ footer#rodape
         text-align: center;
     }
     
+<<<<<<< Updated upstream
     header#cabecalho #menu ul{
         float: right;
         /*top: 15px;
@@ -271,6 +276,9 @@ footer#rodape
    /* }
     
     main {
+=======
+    main{
+>>>>>>> Stashed changes
         display: grid;
         grid-template-columns: 400px;
     }
@@ -290,6 +298,7 @@ footer#rodape
     section#principal{
         width: 400px;
 
+<<<<<<< Updated upstream
     }
 
     .items-grid{
@@ -315,6 +324,37 @@ footer#rodape
         display: table;
         text-align: left;
         margin-left: 20px;
+=======
+    section#principal{
+     grid-template-columns: 400px;
+    
     }
 
+    .items-grid{
+        list-style-type: none;
+        grid-template-columns: 400px;
+        margin-left: 80px;
+        gap: 20px;
+    }
+    
+    aside#lateral{
+        grid-template-columns: 400px;
+        margin-left: 80px;
+       /* display: flex;
+        flex-direction: column;*/
+      /*  max-width: 300px;
+        align-items: center;
+        margin: 30px 40px;
+        padding-bottom: 30px;*/
+    
+        
+>>>>>>> Stashed changes
+    }
+
+    
+    footer#rodape{   
+        display: table;
+
+    }
+    
 }
