@@ -17,7 +17,7 @@ a{
 
 
 h2{
-    font-size: 20pt;
+    font-size: 15pt;
 }
 
 footer{
@@ -188,7 +188,7 @@ aside#lateral{
     max-width: 200px;
     align-items: center;
     margin: 0px 20px 20px;
-    padding: 30px;
+    padding: 0px 30px;
 
     font-family: 'Raleway', sans-serif;
 
@@ -196,7 +196,7 @@ aside#lateral{
     display: block;
     float: right;
     border-left-color:black;
-    margin: 30px 90px;
+    margin: 0px 90px;
     
     width: 300px;
     border-radius: 8px;
@@ -210,7 +210,7 @@ aside#lateral #papp{
     align-items: center;
 
     margin-top: 20px;
-    padding: 20px;
+    padding: 0px 20px;
     
     text-align: center;
 }
@@ -227,7 +227,7 @@ aside#lateral #loja{
     flex-direction: column;
     align-items: center;
 
-    margin-top: 30px;
+    margin: 30px 0px;
 
     text-align: justify;
 }
@@ -242,20 +242,20 @@ footer#rodape
     text-align: center;
     font-size: 26px;
     padding-top: 20px;
+    list-style: none;
 }
 
-footer#rodape #wts span{
-    content:"";
-    /*
-    display: flex;
-    flex-direction: column;*/
-    background-image: url('imagens/whatsapp.jpg');
-    width: 20px;
-    height: 20px; 
+footer#rodape li#wts{
+    list-style-image: url(imagens/whatsapp.jpg) ;
 }
 
+footer#rodape li#e-mail{
+    list-style-image: url(imagens/email.png.png) ;
+}
 
-
+footer#rodape li#location{
+    list-style-image: url(imagens/locate.png.png) ;
+}
 
 
 
