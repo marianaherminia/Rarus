@@ -244,12 +244,14 @@ footer#rodape
     padding-top: 20px;
 }
 
-footer#rodape a span{
-    margin-right: 16px;
+footer#rodape #wts span{
+    content:"";
+    /*
     display: flex;
-    background-image: url('../assets/log-in.svg');
+    flex-direction: column;*/
+    background-image: url('imagens/whatsapp.jpg');
     width: 20px;
-    height: 20px;
+    height: 20px; 
 }
 
 
