@@ -244,6 +244,13 @@ footer#rodape
     padding-top: 20px;
 }
 
+footer#rodape a span{
+    margin-right: 16px;
+    display: flex;
+    background-image: url('../assets/log-in.svg');
+    width: 20px;
+    height: 20px;
+}
 
 
 
@@ -259,16 +266,19 @@ footer#rodape
         padding: 0;
     }
     div#interface{
+        margin: auto;
+        padding: 0;
+        /*
         margin:  auto;
         padding: 30px;
-        width: 400px;
+        width: 360px;*/
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     header#cabecalho{
-        margin-top: 45px;
+        margin-top: 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -276,7 +286,11 @@ footer#rodape
         padding-bottom: 15px;
     
     }
-        
+    header#cabecalho #logo #rarus{
+        padding:0px 20px;
+    }
+    
+
     header#cabecalho #logo img#icon{    
         width: 20%;
         height: 20%;
@@ -284,7 +298,8 @@ footer#rodape
 
     header#cabecalho #logo h2{    
         font-size: 18px;
-        text-align: center;
+        text-align: left;
+        padding-left: 20px;
     }
 
     header#cabecalho #logo #rarus h1{
@@ -307,7 +322,7 @@ footer#rodape
         align-items: center;
 /*         grid-template-columns: 400px;
  */     margin: 30px 30px 50px 20px; 
-        width: 400px;   
+        width: 70%;   
 
     
     }
@@ -316,10 +331,18 @@ footer#rodape
         margin: 0;
         padding: 0;
     }
+
+    .items-grid li{
+      height: 200px;
+      width: 200px;
+      padding: 30px;
+        
+    }
+
     aside#lateral{
         grid-template-columns: 250px;
         margin: 10px 0px;
-        padding: 25px;
+        padding: 30px;
         display: flex;
         flex-direction: column;
 
