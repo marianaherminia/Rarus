@@ -199,6 +199,7 @@ aside#lateral{
     margin: 30px 90px;
     
     width: 300px;
+    border-radius: 8px;
 
     text-align: justify;
     
@@ -244,18 +245,38 @@ footer#rodape
 }
 
 
+
+
+
+
+
+
+
 @media screen and (max-width: 500px){
     body{
         text-align: center;
         margin: 0;
         padding: 0;
     }
-
     div#interface{
         margin:  auto;
         padding: 30px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
+    header#cabecalho{
+        margin-top: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid grey;
+        padding-bottom: 15px;
+    
+    }
+        
     header#cabecalho #logo img#icon{    
         width: 20%;
         height: 20%;
@@ -263,10 +284,12 @@ footer#rodape
 
     header#cabecalho #logo h2{    
         font-size: 18px;
+        text-align: center;
     }
 
     header#cabecalho #logo #rarus h1{
-        font-size: 20pt;
+        font-size: 25pt;
+        text-align: center;
         letter-spacing: 4pt;
         margin-top: 0; 
         margin-left: 1vw;
@@ -281,20 +304,25 @@ footer#rodape
     main{
         display: flex;
         flex-direction: column;
+        align-items: center;
 /*         grid-template-columns: 400px;
- */            margin: 30px 0px;
-        width: 800px;*/
+ */     margin: 30px 30px 50px 20px; 
+        width: 400px;   
+
     
     }
     .items-grid {
-        grid-template-columns: 270px;
+        grid-template-columns: 250px;
         margin: 0;
+        padding: 0;
     }
     aside#lateral{
         grid-template-columns: 250px;
-        margin-left: 0px;
+        margin: 10px 0px;
+        padding: 25px;
         display: flex;
         flex-direction: column;
+
     }
     
     footer#rodape {   
@@ -303,7 +331,13 @@ footer#rodape
         margin: 0;
         padding: 0;
     }
-
+    header#cabecalho #logo h2{
+       
+        font-size: 15px;
+        flex: 1;
+        flex-direction: column;
+        padding-top: 0px;
+    }
   /*  body{
         float: none;
         text-align: center;
