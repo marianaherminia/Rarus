@@ -15,9 +15,7 @@ a{
     color: black;
 }
 
-h1{
-    font-size: 2px;;
-}
+
 h2{
     font-size: 20pt;
 }
@@ -259,9 +257,23 @@ footer#rodape
     }
 
     header#cabecalho #logo img#icon{    
-        width: 25%;
-        height: 25%;
+        width: 20%;
+        height: 20%;
     }
+
+    header#cabecalho #logo h2{    
+        font-size: 18px;
+    }
+
+    header#cabecalho #logo #rarus h1{
+        font-size: 20pt;
+        letter-spacing: 4pt;
+        margin-top: 0; 
+        margin-left: 1vw;
+        margin-bottom: 0px;
+        padding-bottom: 0px;    
+    } 
+
     header#cabecalho #menu{
         display: none;
       }
