@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+body{
+    background-color: #e1faec;
+    font: normal 14pt Arial;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+h2{
+    font-size: 15pt;
+}
+
+li{
+    list-style: none;
+}
+
+div#interface{
+    margin: -20px auto 10px auto;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 20px 40px 20px 80px;
+
+    background-color: whitesmoke;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+nav#menu{
+    display: block;
+    padding-top: 20vh;
+    width: 80%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+}
+
+header#cabecalho{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+
+}
+header#cabecalho #logo #rarus{
+    display: flex;
+    align-items: center;
+}
+
+header#cabecalho #logo img#icon{    
+    width: 8%;
+    height: 8%;
+}
+
+header#cabecalho #logo #rarus h1{
+    font-size: 30pt;
+    font-family: 'Berkshire Swash', cursive;
+    letter-spacing: 4pt;
+    margin-top: 0; 
+    margin-left: 1vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;    
+} 
+header#cabecalho #logo h2{
+    display: flex;
+    font-size: 10px;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 0px;
+    margin-top 0px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+header#cabecalho #menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: right;
+    
+    flex:1;
+    height: 100%;
+    justify-content: center;
+  }
+  
+nav#menu h1{
+    display: none;
+}
+
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+    top: 80px;
+    line-height: 38px;    
+}
+
+nav#menu li:hover{
+    background-color: rgb(208, 240, 237);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 30px 0px;
+    width: 800px;
+
+}
+
+.items-grid{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+
+    border-radius: 15px;
+    background-color: whitesmoke;
+  
+}
+
+.items-grid a{
+    
+    background-color:  rgb(154, 238, 230);
+    
+    margin-bottom: 0;
+    padding: 32px 24px 16px;
+    border-radius: 8px;
+    max-height: 200px;
+ 
+    font-family: 'Berkshire Swash', cursive;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.items-grid a li{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+
+
+
+    text-align: center;
+
+}
+
+.items-grid img{
+    margin-top: 14px;
+    
+}
+
+.items-grid span{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 12px;
+
+    text-align: center;
+}
+
+main img{
+    display: flex;
+    flex-direction: column;
+}
+
+
+aside#lateral{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 200px;
+    align-items: center;
+    margin: 0px 20px 20px;
+    padding: 0px 30px;
+
+    font-family: 'Raleway', sans-serif;
+
+    background-color:  rgb(195, 228, 224);
+    display: block;
+    float: right;
+    border-left-color:black;
+    margin: 0px 90px;
+    
+    width: 300px;
+    border-radius: 8px;
+
+    text-align: justify;
+    
+}
+aside#lateral #papp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+    padding: 0px 20px;
+    
+    text-align: center;
+}
+
+aside#lateral #papp img{
+    border-radius: 50px;
+    border-style: solid;
+
+    margin-top: 20px;
+}
+
+aside#lateral #loja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 30px 0px;
+
+    text-align: justify;
+}
+
+aside#lateral #loja img{
+    margin-top: 10px;
+}
+
+footer#rodape
+{   clear: both;
+    border-top: 1px #606060 solid;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 20px;
+    list-style: none;
+}
+
+footer#rodape li#wts{
+    list-style-image: url(../imagens/whatsapp.jpg) ;
+}
+
+footer#rodape li#e-mail{
+    list-style-image: url(../imagens/email.png.png) ;
+}
+
+footer#rodape li#location{
+    list-style-image: url(../imagens/locate.png.png) ;
+}

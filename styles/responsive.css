@@ -1,0 +1,100 @@
+
+@media screen and (max-width: 500px){
+    body{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    div#interface{
+        margin: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header#cabecalho{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid grey;
+        padding-bottom: 15px;
+    }
+
+    header#cabecalho #logo #rarus{
+        padding:0px 20px;
+    }
+    
+
+    header#cabecalho #logo img#icon{    
+        width: 20%;
+        height: 20%;
+    }
+
+    header#cabecalho #logo h2{    
+        font-size: 18px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    header#cabecalho #logo #rarus h1{
+        font-size: 25pt;
+        text-align: center;
+        letter-spacing: 4pt;
+        margin-top: 0; 
+        margin-left: 1vw;
+        margin-bottom: 0px;
+        padding-bottom: 0px;    
+    } 
+
+    header#cabecalho #menu{
+        display: none;
+      }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 30px 50px 20px; 
+        width: 70%;     
+    }
+    
+    .items-grid {
+        grid-template-columns: 250px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .items-grid a{
+      height: 200px;
+      width: 200px;
+      padding: 30px;
+        
+    }
+
+    aside#lateral{
+        grid-template-columns: 250px;
+        margin: 10px 0px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+ 
+    footer#rodape {   
+        display: table;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    header#cabecalho #logo h2{
+       
+        font-size: 15px;
+        flex: 1;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+}
