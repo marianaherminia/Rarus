@@ -36,7 +36,6 @@ div#interface{
     display: flex;
     flex-direction: column;
 }
-
 nav#menu{
     display: block;
     padding-top: 20vh;
@@ -44,7 +43,6 @@ nav#menu{
     font-family: 'Raleway', sans-serif;
     font-size: 10px;
 }
-
 header#cabecalho{
     margin-top: 45px;
     display: flex;
